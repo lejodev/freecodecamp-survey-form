@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body>
+    <main class="main">
+        <section class="info">
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </section>
+        <section class="form">
+            <form action="send" id="survey-form">
+                
+                <label class="label" for="name" id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required></label>
+
+                
+                <label for="email" id="email-label">Email<input type="email" name="email" id="email" placeholder="Enter your email" required></label>
+
+                
+                <label for="number" id="number-label">Age (optional)<input type="number" id="number" min="18" max="100" placeholder="Enter your age"></label>
+
+                <label for="dropdown">
+                    Select
+                    <select name="options" id="dropdown">
+                        <option value="opt1">Option 1</option>
+                        <option value="opt2">Option 2</option>
+                    </select>
+                </label>
+
+                <h2>Choose only one option</h2>
+
+                <label for="opt1"><input type="radio" id="opt1" name="radio" value="some">Option 1</label>
+                
+                <label for="opt2"><input type="radio" id="opt2" name="radio" value="some">Option 2</label>
+                
+                <label for="opt3"><input type="radio" id="opt3" name="radio" value="some">Option 3</label>
+
+                <h2>Choose the options you want</h2>
+                <label for="check1"><input type="checkbox" id="check1" name="check1" value="opt1"> Option 1</label>
+                
+                <label for="check2"><input type="checkbox" id="check2" name="check2" value="opt2"> Option 2</label>
+                
+                <label for="check3"><input type="checkbox" id="check3" name="check3" value="opt3"> Option 3</label>
+                
+                <label for="check4"><input type="checkbox" id="check4" name="check4" value="opt4"> Option 4</label>
+
+                <h2>Let the additional comments here</h2>
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+                <button id="submit">submit</button>
+
+            </form>
+        </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

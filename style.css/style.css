@@ -1,0 +1,86 @@
+body {
+  background-color: violet;
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: snow;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  margin: auto;
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .info {
+  padding: 6vh 0;
+  text-align: center;
+}
+
+.main .info #title {
+  font-size: 3rem;
+}
+
+.main .info #description {
+  font-size: 1.4rem;
+}
+
+.main .form #survey-form {
+  padding: 6vh 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background-color: rgba(34, 51, 68, 0.699);
+  border-radius: 10px;
+}
+
+.main .form #survey-form h2 {
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main .form #survey-form input[type=text], .main .form #survey-form input[type=email], .main .form #survey-form input[type=number], .main .form #survey-form select, .main .form #survey-form select ~ option {
+  display: inline-block;
+  width: 100%;
+  height: 6vh;
+  border-radius: 5px;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 1vh 0 0 0;
+}
+
+.main .form #survey-form label {
+  margin-bottom: 3vh;
+}
+
+.main .form #survey-form textarea {
+  margin-bottom: 4vh;
+  resize: vertical;
+  border-radius: 5px;
+}
+
+.main .form #survey-form button {
+  height: 6vh;
+  margin-bottom: 7vh;
+  background-color: dodgerblue;
+  border-style: none;
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
